@@ -28,6 +28,7 @@ urllib3 = "==2.0.2"
 dj-rest-auth = "*"
 django-allauth = "*"
 gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 
