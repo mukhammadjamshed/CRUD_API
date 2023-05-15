@@ -7,7 +7,7 @@ class Book(models.Model):
     author = models.CharField(max_length=150)
     isbn = models.CharField(max_length=150)
     price = models.DecimalField(max_digits=30, decimal_places=2)
-    status = models.CharField(max_length=30)
+    is_active = models.BooleanField()
     description = models.TextField()
     language = models.CharField(max_length=30)
     text = models.CharField(max_length=30)

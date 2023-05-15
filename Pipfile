@@ -25,6 +25,9 @@ requests = "==2.30.0"
 sqlparse = "==0.4.4"
 uritemplate = "==4.1.1"
 urllib3 = "==2.0.2"
+dj-rest-auth = "*"
+django-allauth = "*"
+gunicorn = "*"
 
 [dev-packages]
 
